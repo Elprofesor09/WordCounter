@@ -7,16 +7,16 @@ public class Main {
         int totalWords = 0;
 
         try {
-            File file = new File("TestExercice3.txt"); // Assure-toi que le fichier est bien à la racine du projet
+            File file = new File("TestExercice3.txt");
             Scanner fileReader = new Scanner(file);
 
             while (fileReader.hasNextLine()) {
                 String line = fileReader.nextLine();
-                // Supprimer les espaces inutiles
+
                 line = line.trim();
 
                 if (!line.isEmpty()) {
-                    // On sépare la ligne en mots
+
                     String[] words = line.split("\\s+");
                     totalWords += words.length;
                 }
