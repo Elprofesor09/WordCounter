@@ -12,13 +12,11 @@ Le fichier `TestExercice3.txt` contient du code Java. Le programme le lit et com
 2. Compiler et exécuter la classe `Main.java`
 3. Le nombre total de mots sera affiché dans la console
 
-##  Objectifs pédagogiques
+##  Objectifs
 
 - Lire un fichier texte avec `Scanner`
 - Travailler avec des chaînes (`String`) et `split()`
 - Manipuler les boucles et conditions
 - Pratiquer la gestion d’exceptions (`try/catch`)
 
-##  Réalisé par
 
-- **Nom:** Toure youssouf
